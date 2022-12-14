@@ -41,7 +41,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--dir_name', type=str,
                         default='default', help='Dir name')
-    parser.add_argument('--data_dir', type=str, default='/output',
+    parser.add_argument('--data_dir', type=str, default='./',
                         help='Data disk dir')
     parser.add_argument('--env', type=str,
                         default='Walker2d-v2')

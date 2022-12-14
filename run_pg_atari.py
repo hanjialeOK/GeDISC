@@ -21,10 +21,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--dir_name', type=str,
                         default='default', help='Dir name')
-    parser.add_argument('--data_dir', type=str, default='/output',
+    parser.add_argument('--data_dir', type=str, default='./',
                         help='Data disk dir')
     parser.add_argument('--env', type=str,
-                        default='Walker2d-v2')
+                        default='PongNoFrameskip-v4')
     parser.add_argument('--alg', type=str, default='PPO2',
                         choices=['ACER', 'PPO2', 'GeDISC'],
                         help='Experiment name')
